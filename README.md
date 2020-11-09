@@ -1,5 +1,4 @@
 # demo-create-repo
-First repo
 + Tuần 1 ngày 11/09/2020
     - Lệnh git config (dùng để set user name và email)
     ```
@@ -30,4 +29,8 @@ First repo
     - Lệnh git push (dùng để gửi thay đổi tới master branch của repositorys)
     ```
         git push
+    ```
+    - ls -la (hiển thị thông tin rõ ràng hơn)
+    ```
+        ls -la
     ```
