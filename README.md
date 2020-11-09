@@ -6,3 +6,5 @@ First repo
     - Lệnh git clone (dùng để khởi tạo 1 git repository 1 project mới hoặc đã có)
     - Lệnh git add (dùng để thêm thay đổi đến stage/index trong thư mục làm việc)
     - Lệnh git commit (dùng để commit thay đổi từ đầu)
+    - Lệnh git status (dùng để hiển thị danh sách thay đổi của files được thêm hoặc commited)
+    - Lệnh git push (dùng để gửi thay đổi tới master branch của repositorys)
