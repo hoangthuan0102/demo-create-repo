@@ -62,4 +62,11 @@
     ```
         git checkout issue1
     ```
-    
+    - Tạo branch mới và checkout
+    ```
+        git checkout -b issue2
+    ``` 
+    - Xóa branch
+    ```
+        git branch -d issue1
+    ```
