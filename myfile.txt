@@ -1,1 +1,2 @@
 hướng dẫn sử dụng branch
+add: đăng ký thay đổi trong index
