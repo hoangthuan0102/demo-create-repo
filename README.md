@@ -58,3 +58,8 @@
     ```
         git branch
     ```
+    - Chuyển đổi branch 
+    ```
+        git checkout issue1
+    ```
+    
