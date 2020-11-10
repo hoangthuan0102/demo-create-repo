@@ -1,5 +1,5 @@
 # demo-create-repo
-+ Tuần 1 ngày 11/09/2020
++ Tuần 1 ngày 09/11/2020
     - Lệnh git config (dùng để set user name và email)
     ```
         git config --global user.name "hoangthuan"
@@ -33,4 +33,28 @@
     - ls -la (hiển thị thông tin rõ ràng hơn)
     ```
         ls -la
+    ```
++ Tuần 1 ngày 10/11/2020
+    - Untrackerd (Một tập tin mới được tạo thì sẽ ở trạng thái Untracked)
+    ```
+        touch faq.html
+        git status
+    ```
+    - Tracked (để đưa tập tin từ untracked về tracked thì)
+    ```
+        git add faq.html
+        git status
+    ```
+    - Chuyển tập tin từ tracked về untracked 
+    ```
+        rm faq.html
+        git status
+    ```
+    - Tạo branch
+    ```
+        git branch issue1
+    ```
+    - Xem danh sách branch (có dấu * là branch hiện tại)
+    ```
+        git branch
     ```
