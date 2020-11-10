@@ -70,3 +70,36 @@
     ```
         git branch -d issue1
     ```
+    - Cài đặt Mysql trên Ubuntu 20
+        - Cài đặt Mysql Server
+        ```
+            sudo apt update
+            sudo apt install mysql-server -y
+            sudo service mysql status
+        ```
+        - Bảo mật Mysql Server
+        ```
+            sudo mysql_secure_installation
+        ```
+        - Quản lý Mysql Service
+        ```
+            sudo service mysql status
+            sudo service mysql start
+            sudo service mysql stop
+            sudo service mysql restart
+        ```
+        - Kết nối Mysql
+        ```
+            sudo mysql -p -u root
+        ```
+        - Tạo Database và user Mysql
+        ```
+            CREATE DATABASE THUAN_DB;
+            CREATE USER 'THUAN_USER'@'localhost' IDENTIFIED by 'Thuan0102@';            
+            GRANT ALL on THUAN_DB.* to 'THUAN_USER'@'localhost';           
+            FLUSH PRIVILEGES;
+        ```
+        - Thoát khỏi Mysql
+        ```
+            exit;
+        ```
