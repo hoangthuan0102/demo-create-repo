@@ -1,3 +1,5 @@
 hướng dẫn sử dụng branch
 add: đăng ký thay đổi trong index
-test merge branch 
+test merge branch.
+cau dat ssh-keygen
+ 
