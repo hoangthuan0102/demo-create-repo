@@ -1,5 +1,6 @@
 hướng dẫn sử dụng branch
 add: đăng ký thay đổi trong index
 test merge branch.
-cau dat ssh-keygen
+cai dat ssh-keygen
+set ssh key
  
