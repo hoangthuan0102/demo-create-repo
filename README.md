@@ -109,3 +109,7 @@
             https://docs.docker.com/get-docker/
         ```
             tải phiên bản dành cho windows và cài đặt
+        - xem images
+        ```
+            docker images
+        ```
