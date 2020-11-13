@@ -103,13 +103,4 @@
         ```
             exit;
         ```
-+ Tuần 1 ngày 12/11/2020
-        - Cài đặt Docker trên Windows 10
-        ```
-            https://docs.docker.com/get-docker/
-        ```
-            tải phiên bản dành cho windows và cài đặt
-        - xem images
-        ```
-            docker images
-        ```
+
